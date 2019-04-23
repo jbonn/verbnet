@@ -20,7 +20,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Topic">
+        <THEMROLE type="Theme">
             <SELRESTRS>
             </SELRESTRS>
         </THEMROLE>
@@ -44,14 +44,14 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_information">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_position">
@@ -65,7 +65,7 @@
                     <ARGS>
                         <ARG type="Event" value="ë2"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="ThemRole" value="?Recipient"/>
                     </ARGS>
                 </PRED>
@@ -86,7 +86,7 @@
                     <ARGS>
                         <ARG type="Event" value="e3"/>
                         <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -123,14 +123,14 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_information">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_position">
@@ -144,7 +144,7 @@
                     <ARGS>
                         <ARG type="Event" value="ë2"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="ThemRole" value="Recipient"/>
                     </ARGS>
                 </PRED>
@@ -165,7 +165,7 @@
                     <ARGS>
                         <ARG type="Event" value="e3"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -188,7 +188,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Topic">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -197,14 +197,14 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_information">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_position">
@@ -218,7 +218,7 @@
                     <ARGS>
                         <ARG type="Event" value="ë2"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Recipient"/>
                     </ARGS>
                 </PRED>
@@ -239,7 +239,7 @@
                     <ARGS>
                         <ARG type="Event" value="e3"/>
                         <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -262,7 +262,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Topic">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="to">
@@ -277,14 +277,14 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_information">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_position">
@@ -298,7 +298,7 @@
                     <ARGS>
                         <ARG type="Event" value="ë2"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Recipient"/>
                     </ARGS>
                 </PRED>
@@ -319,7 +319,7 @@
                     <ARGS>
                         <ARG type="Event" value="e3"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
