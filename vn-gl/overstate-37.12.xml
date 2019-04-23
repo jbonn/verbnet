@@ -18,7 +18,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Theme">
+        <THEMROLE type="Topic">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -35,7 +35,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Topic">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -44,14 +44,14 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Topic"/>
                         <ARG type="PredSpecific" value="Recipient"/>
                     </ARGS>
                 </PRED>
@@ -65,7 +65,7 @@
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="PredSpecific" value="Recipient"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
