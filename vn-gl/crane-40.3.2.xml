@@ -60,9 +60,7 @@
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Theme">
-            <SELRESTRS logic="and">
-                <SELRESTR Value="+" type="information"/>
-                <SELRESTR Value="+" type="emotional_state"/>
+            <SELRESTRS>
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Recipient">
@@ -267,7 +265,7 @@
                 <PREP value="in">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Topic">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
