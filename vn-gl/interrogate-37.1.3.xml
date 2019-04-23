@@ -19,7 +19,9 @@
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Topic">
-            <SELRESTRS/>
+            <SELRESTRS>
+                <SELRESTR Value="+" type="question"/>
+            </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Attribute">
             <SELRESTRS/>
